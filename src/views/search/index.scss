@@ -1,0 +1,44 @@
+.search{
+    .searchRes{
+        width: 100%;
+        section{
+            width: 65%;
+            height: 105px;
+            background-color: rgb(250,250,250);
+            border-top: 1px solid #ccc;
+            margin: 40px auto;
+            text-align: center;
+            line-height: 105px;
+            color:rgb(87,87,87);
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+    
+    }
+    .search-nav{
+        width: 100%;
+        .active{
+            background-color: #fff;
+            color: #000;
+        }
+        nav{
+            width: 65%;
+            height: 40px;
+           
+            margin: 48px auto;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: space-between;
+            a{
+                text-align: center;
+                line-height: 40px;
+                width: 33.3%;
+            }
+            .active{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+
+    }
+}

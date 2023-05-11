@@ -1,0 +1,67 @@
+.MySwiper {
+    position: relative;
+    padding-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    .cent {
+        position: relative;
+        cursor: pointer;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    img {
+       margin: 0 auto;
+
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: 90%;
+    }
+
+    .arrows {
+        width: 33px;
+        height: 66px;
+        position: absolute;
+        top: 50%;
+        background-color: transparent;
+        color: rgba(204, 204, 204, 0.458);
+        border: none;
+        cursor: pointer;
+
+        svg {
+            font-size: 50px;
+        }
+    }
+
+
+    @mixin list {
+     
+        border: 1px solid #e8e8e8;
+        text-align: center;
+        padding: 10px;
+        
+        h2 {
+            text-align: center;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size:20px;
+        
+        }
+    }
+    .list {
+        width: 258.75px !important;
+        @include list
+  
+    }
+    .list1{
+       
+        width: 450px !important;
+        @include list
+       
+    }
+
+
+}

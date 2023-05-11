@@ -1,0 +1,24 @@
+.end {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    .pictureend {
+        width: 168px;
+        height: 224px;
+    }
+
+    img {
+        width: 168px;
+        height: 168px;
+    }
+
+    .titleend {
+        font-size: 13px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}

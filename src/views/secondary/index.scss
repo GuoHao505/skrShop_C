@@ -1,0 +1,132 @@
+.secondary {
+
+
+    .title {
+        .p_SeconDary {
+            margin-bottom: 10px;
+            font-size: 36px;
+            color: #333;
+            font-family: "ProximaNova-Thin";
+            font-size: 48px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 60px 0 20px 0;
+            font-weight: 100;
+        }
+    }
+
+
+    .ant-breadcrumb {
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, 0.65);
+        font-variant: tabular-nums;
+        line-height: 1.5;
+        list-style: none;
+        font-feature-settings: 'tnum';
+        color: rgba(0, 0, 0, 0.45);
+        font-size: 14px;
+
+        a {
+            color: #666;
+            text-decoration: none;
+            ansition: color 0.3s;
+        }
+
+        .ant-breadcrumb-separator {
+            margin: 0 8px;
+            color: rgba(0, 0, 0, 0.45);
+        }
+    }
+
+    .BrandInfo {
+        .brand_info_item {
+            width: 80%;
+            margin: 0 auto;
+            background: #5a5a5a;
+            color: #fff;
+            height: 296px;
+            padding: 45px 35px 0 47px;
+
+            p {
+                font-size: 40px;
+                font-weight: 200;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .PrimaryList {
+        margin: 0 auto;
+        width: 80%;
+
+        .hearder {
+            width: 100%;
+            height: 54px;
+            border-top: 1px solid #e1e1e1;
+            border-bottom: 2px solid #000;
+            background-color: #fbfbfb;
+            display: flex;
+            justify-content: flex-end;
+
+            .left {
+                display: flex;
+                width: 99%;
+                align-items: flex-start;
+                float: left;
+
+                p {
+                    line-height: 54px;
+                    cursor: pointer;
+                    font-family: "ProximaNova-Semibold";
+                    font-size: 16px;
+                    color: #000;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .sort {
+            position: relative;
+            margin: 25px 0 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .list {
+            .AnCard {
+                width: 100%;
+                padding: 0 10px;
+                display: flex;
+                text-align: center;
+                flex-wrap: wrap;
+        
+                .card {
+        
+                    margin: 4px;
+                    border: 1px solid rgba(204, 204, 204, 0.507);
+        
+                    &:hover {
+                        box-shadow: 0 0 3px 2px #ccc;
+                    }
+        
+                    img {
+                        width: 100%;
+                    }
+        
+                }
+            }
+        }
+
+        .pages {
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

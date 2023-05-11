@@ -1,0 +1,31 @@
+.search-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 65%;
+    margin: 30px auto;
+   
+    .product{
+        margin-top: 10px;
+        width: 19%;
+        height: 250px;
+        border: 1px solid #ccc;
+        li{
+            width: 20%;
+            list-style: none;
+            img{
+                width: 154px;
+                height: 144px;
+            }
+            
+        }
+        .product-title{
+            height: 30px;
+        }
+        p{
+            margin-top: 10px;
+            color: rgb(207,219,237);
+        }
+    }
+  
+}

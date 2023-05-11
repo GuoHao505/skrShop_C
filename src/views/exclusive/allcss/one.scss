@@ -1,0 +1,58 @@
+header {
+    font-size: 48px;
+    text-align: center;
+}
+
+.first {
+    width: 100%;
+    height: 1035px;
+    margin-top: 20px;
+    display: flex;
+
+    .rt {
+        width: 987px;
+        height: 987px;
+ 
+        vertical-align: top;
+    }
+
+    .lt {
+        width: 508px;
+        height: 1035px;
+        margin-left: 23px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: hidden;
+
+
+        .picture {
+            width: 240px;
+            height: 332px;
+
+            img {
+                width: 231px;
+                height: 231px;
+            }
+
+            .titleone {
+                width: 200px;
+                font-size: 16px;
+                color: #000000D9;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                margin-top: 15px;
+                margin-left: 20px;
+
+            }
+
+            .iniltone {
+                font-size: 14px;
+                color: #00000073;
+                margin-left: 20px;
+            }
+        }
+    }
+
+}
